@@ -11,7 +11,7 @@
  */
 
 $(document).ready(function() {
-    const pathPattern = /^\/doc\/(scipy|numpy)-([0-9.]+)(.*)/;
+    const pathPattern = /^\/+doc\/+(scipy|numpy)-([0-9.]+)(.*)/;
     const latestStable = {
         "scipy": "{{ SCIPY_LATEST_VERSION }}",
         "numpy": "{{ NUMPY_LATEST_VERSION }}"
